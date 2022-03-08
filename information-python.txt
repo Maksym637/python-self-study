@@ -1,0 +1,45 @@
+Date types in python:
+> string
+> digits  (int, float and double)
+> boolean (True, False)
+-----------------------------------------------------------------
+String:
+> phrase = "something"
+> phrase.lower() and phrase.upper()
+length of string:
+> len(phrase)
+> phrase.index("o") ---> 0
+> phrase.replace("something", "new_something")
+-----------------------------------------------------------------
+Digits:
+> all operations that you know in math
+my_num = 5
+convert number into string is : str(my_num)
+-----------------------------------------------------------------
+Input information:
+name = input()
+-----------------------------------------------------------------
+Lists:
+list = [any piece of information]
+list functions:
+1) .extend():
+> numbers = [4, 8, 15, 16, 23, 42]
+> friends = ["Max", "Karen", "Jim"]
+> friends.extend(numbers) ---> ["Max", ... , 42]
+2) .append():
+add item into the end of list
+3) .insert():
+> insert(1, "Kelly")
+4) .remove():
+removes one of the element
+5) .clear():
+delete all list
+6) .pop():
+removes the last element
+7) .sort():
+sorts the list
+8) .reverse()
+-----------------------------------------------------------------
+Tuples:
+touple is immutable!
+-----------------------------------------------------------------
