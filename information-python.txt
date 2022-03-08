@@ -43,3 +43,16 @@ sorts the list
 Tuples:
 touple is immutable!
 -----------------------------------------------------------------
+Dictionaries:
+
+key <---> value
+
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+}
+
+monthConversions["Feb"] ---> February
+monthConversions.get("Feb") ---> February
+-----------------------------------------------------------------
