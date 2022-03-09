@@ -96,3 +96,6 @@ employee_file.close()
 List of python models:
 link ---> https://docs.python.org/3/py-modindex.html
 -----------------------------------------------------------------
+Python 3 math module:
+link ---> https://docs.python.org/3/library/math.html
+-----------------------------------------------------------------
