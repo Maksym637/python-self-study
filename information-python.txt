@@ -1,3 +1,4 @@
+-----------------------------------------------------------------
 Date types in python:
 > string
 > digits  (int, float and double)
@@ -55,4 +56,43 @@ monthConversions = {
 
 monthConversions["Feb"] ---> February
 monthConversions.get("Feb") ---> February
+-----------------------------------------------------------------
+Try except:
+It is used for catching errors
+
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+except:
+    print("Invalid Input!")
+
+eg: value = 10/0 ---> calls an error
+-----------------------------------------------------------------
+Reading files:
+
+< read information from file >:
+
+employees.txt:
+
+   Jim - Salesman
+   Dwight - Salesman
+   Pam - Receptionist
+   Michael - Manager
+   Oscar - Accountant
+
+employee_file = open("employees.txt", "r") 
+(r - read, w - write, a - append, r+ - read and write)
+print(employee_file.read())
+employee_file.close()
+
+Writing to files:
+
+< write information to file >:
+
+employee_file = open("employees.txt", "a")
+employee_file.write("\nnew employees")
+employee_file.close()
+-----------------------------------------------------------------
+List of python models:
+link ---> https://docs.python.org/3/py-modindex.html
 -----------------------------------------------------------------
